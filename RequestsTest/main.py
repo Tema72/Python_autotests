@@ -19,7 +19,7 @@ response = requests.put(url=f'{host}/v2/pokemons',
                              'photo': 'https://dolnikov.ru/pokemons/albums/165.png',                  
                              },
                              headers={'Content-Type': 'application/json',
-                                     'trainer_token': '01c09c393782fc547d22fec19eec4ec1'}, timeout=5)
+                                     'trainer_token': 'xxx'}, timeout=5)
 
 
 print(f'Message:{response.text}')           
